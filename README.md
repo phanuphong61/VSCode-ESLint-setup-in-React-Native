@@ -1,19 +1,19 @@
 # VSCode-ESLint-setup-in-React-Native
 
-npm i -g eslint
+npm i -g eslint<br/>
 npm i -g prettier
 
 eslint --init
 
-√ How would you like to use ESLint? · problems
-√ What type of modules does your project use? · esm
-√ Which framework does your project use? · react
-√ Does your project use TypeScript? · No / Yes
-√ Where does your code run? · browser
+√ How would you like to use ESLint? · problems<br/>
+√ What type of modules does your project use? · esm<br/>
+√ Which framework does your project use? · react<br/>
+√ Does your project use TypeScript? · No / Yes<br/>
+√ Where does your code run? · browser<br/>
 √ What format do you want your config file to be in? · JavaScript
 
 Update .eslintrc.js
-
+```javascript
 module.exports = {
    extends: 'airbnb',
    rules: {
